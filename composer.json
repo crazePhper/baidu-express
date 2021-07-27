@@ -1,6 +1,7 @@
 {
     "name": "easydowork/baidu-express",
     "description": "基于百度查询快递信息",
+    "license": "BSD-3-Clause",
     "require": {
         "php": ">=7.0",
         "ext-json": "*",
