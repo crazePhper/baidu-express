@@ -41,15 +41,16 @@ class BDExpress
     /**
      * searchExpress
      * @param $number
+     * @param string $com
      * @return array
      */
-    public static function searchExpress($number)
+    public static function searchExpress($number,$com='')
     {
         static $instance;
         if( !$instance instanceof BDExpress ) {
             $instance = new BDExpress();
         }
-        return $instance->search($number);
+        return $instance->search($number,$com);
     }
 
     /**
